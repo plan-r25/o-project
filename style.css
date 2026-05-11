@@ -1,0 +1,53 @@
+
+form #search {
+  width: 100%;
+  border: 1px solid #4678ef;
+  border-radius: 4px;
+  padding: 10px;
+
+  font-weight: 700;
+}
+
+.top-deal {
+  display: flex;
+  gap: 40px;
+}
+
+.item {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item p {
+  margin: 10px;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.item1 {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+
+  display: flex;
+  gap: 50px;
+
+}
+
+.item1 img {
+  margin: 40px 0;
+}
+
+/* haven't style for tablet and desktop yet */
